@@ -1,4 +1,4 @@
-Clash of Clans version of tweetnacl.
+Clash Royale 2.2 version of tweetnacl.
 
 Welcome hsalsa16 - salsa16
 
