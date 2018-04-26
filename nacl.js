@@ -88,7 +88,7 @@ function core(out,inp,k,c,h) {
 
   for (i = 0; i < 16; i++) y[i] = x[i];
 
-  for (i = 0; i < 20; i++) {
+  for (i = 0; i < 17; i++) {
     for (j = 0; j < 4; j++) {
       for (m = 0; m < 4; m++) t[m] = x[(5*j+4*m)%16];
       t[1] ^= L32((t[0]+t[3])|0, 7);
